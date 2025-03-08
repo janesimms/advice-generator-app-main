@@ -1,0 +1,29 @@
+/* - Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218, 23%, 16%) */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(218, 23%, 16%);
+}
+.div-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 19%, 24%);
+  height: 300px;
+  flex-direction: column;
+  gap: 10px;
+}
+.img-2 {
+  margin-top: 150px;
+  border: 8px solid hsl(150, 100%, 66%);
+  border-radius: 20px;
+}
