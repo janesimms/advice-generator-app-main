@@ -15,15 +15,31 @@ body {
 }
 .div-1 {
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: hsl(217, 19%, 24%);
-  height: 300px;
+  height: 170px;
+  width: 350px;
   flex-direction: column;
   gap: 10px;
+  position: relative;
+  padding: 50px;
+  border-radius: 20px;
 }
 .img-2 {
-  margin-top: 150px;
-  border: 8px solid hsl(150, 100%, 66%);
-  border-radius: 20px;
+  border: 5px solid hsl(150, 100%, 66%);
+  border-radius: 10px;
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  bottom: -7%;
+}
+h5 {
+  color: hsl(150, 100%, 66%);
+}
+p {
+  color: hsl(193, 38%, 86%);
+  text-align: center;
+}
+.img-1 {
+  margin-top: 20px;
+  width: 100%;
 }
